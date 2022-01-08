@@ -1,6 +1,6 @@
 # Crypto Lottery
 
-This repository is referenced in 
+This repository is intended to be the code base for the tutorial:  
 
 
 ### Test Smart Contract locally
@@ -141,34 +141,33 @@ cp .env.example .env
 \cp ../smartcontract/deployments/rinkeby/LotteryGame.json ../backend/src/contracts
 ```
 
-11. Start the backend
+12. Start the backend
 
 ```sh
 yarn run start
 ```
 
-12. Copy contracts json to the client:
+13. Copy contracts json to the client:
 
 ```sh
 \cp ../smartcontract/deployments/rinkeby/LotteryGame.json ../client/src/contracts
 ```
 
-13. Start Vite App
+14. Start Vite App
 
 ```sh
 yarn run dev
 ```
 
-14. Participate
+15. Participate
 
 Go to localhost 3000 and click on the participate button
 
 ![client](./images/client.png)
 
 
-15. Declare the winner
+16. Declare the winner
 
 ```sh
 npx hardhat declare-winner --contract <contract address> --lotteryid <lottery id> --network rinkeby
 ```
-
