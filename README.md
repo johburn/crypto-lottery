@@ -1,6 +1,6 @@
 # Crypto Lottery
 
-This repository is intended to be the code base for the tutorial:  
+This repository is intended to be the code base for the tutorial: https://dev.to/johbu/creating-a-lottery-with-hardhat-and-chainlink-385f
 
 
 ### Test Smart Contract locally
