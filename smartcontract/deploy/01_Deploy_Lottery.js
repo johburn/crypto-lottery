@@ -24,7 +24,7 @@ module.exports = async ({
     additionalMessage =
       " --linkaddress " +
       linkTokenAddress +
-      " --fundadmount " +
+      " --fundamount " +
       config[chainId].fundAmount;
   } else {
     linkTokenAddress = config[chainId].linkToken;
